@@ -1,0 +1,290 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 121px;
+}
+
+.nc-lo {
+  width: 70px;
+  height: 100px;
+}
+
+.vr-lo {
+  width: 90px;
+  height: 100px;
+}
+
+.main_head {
+  width: 100%;
+  background: rgb(61,3,84);
+  background: linear-gradient(90deg, rgba(61,3,84,1) 0%, rgba(88,143,200,1) 35%, rgba(212,57,206,1) 70%, rgba(114,15,149,1) 100%);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.name {
+  margin-top: -10px;
+}
+
+.vr {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: yellow;
+  stroke: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.se {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.at {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.nc {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 51px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  position:sticky;
+}
+
+nav a {
+  margin: 0 3px;
+  padding: 4px;
+  text-decoration: none;
+  color: #ddd;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:is(:link, :active, :visited).btn-nav {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+section h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.table-1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+thead {
+  background-color: #e2c992;
+}
+
+.table-1 th {
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-1 tr {
+  text-align: center;
+
+}
+
+.table-1 tr td {
+  font-size: 1.1rem;
+  padding: 10px
+}
+
+.table-1,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-1 tr:nth-of-type(even) {
+  background-color: #ddd;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 121px;
+}
+
+.nc-lo {
+  width: 70px;
+  height: 100px;
+}
+
+.vr-lo {
+  width: 90px;
+  height: 100px;
+}
+
+.main_head {
+  width: 100%;
+  background: rgb(61,3,84);
+  background: linear-gradient(90deg, rgba(61,3,84,1) 0%, rgba(88,143,200,1) 35%, rgba(212,57,206,1) 70%, rgba(114,15,149,1) 100%);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.name {
+  margin-top: -10px;
+}
+
+.vr {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: yellow;
+  stroke: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.se {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.at {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.nc {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 51px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  position:sticky;
+}
+
+nav a {
+  margin: 0 3px;
+  padding: 4px;
+  text-decoration: none;
+  color: #ddd;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:is(:link, :active, :visited).btn-nav {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+section h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.table-1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+thead {
+  background-color: #e2c992;
+}
+
+.table-1 th {
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-1 tr {
+  text-align: center;
+
+}
+
+.table-1 tr td {
+  font-size: 1.1rem;
+  padding: 10px
+}
+
+.table-1,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-1 tr:nth-of-type(even) {
+  background-color: #ddd;
+}

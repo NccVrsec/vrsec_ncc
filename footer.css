@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+.heart {
+    color: red;
+    margin: 0 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 2rem 2rem 0.5rem 2rem;
+    color: white;
+}
+
+#typed3 {
+    width: 250px;
+    margin-left: 5px;
+}
+
+.footer-line{
+    background: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
